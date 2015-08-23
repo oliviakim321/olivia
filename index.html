@@ -4,197 +4,179 @@
   <head>
     <title>Olivia Kim</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=800px, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/logo.jpg"/>
-    <link rel="stylesheet" type="text/css" href="stylesheets/olivia.css">
-    <script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="scripts/typed.js"></script>
-    <script type="text/javascript" src="scripts/olivia.js"></script>
+    <meta name="viewport" content="initial-scale=1.0" width="device-width"/>
+    <link rel="shortcut icon" href="img/ok.png"/>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/boostrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/typed.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </head>
 
   <body>
-
-      <div id="main-menu-bar">
-          <a class="img-link" id="img-home" href="#top-bar">
-              <img class="main-menu-img" id="top-home" src="img/icon-home.png">
-          </a>
-          <a class="img-link" id="img-about" href="#about-container">
-              <img class="main-menu-img" id="top-about" src="img/icon-about.png">
-          </a>
-          <a class="img-link" id="img-projects" href="#projects-container">
-              <img class="main-menu-img" id="top-projects" src="img/icon-projects.png">
-          </a>
-          <a class="img-link" id="img-experience" href="#experience-container">
-              <img class="main-menu-img" id="top-experience" src="img/icon-experience.png">
-          </a>
-          <a class="img-link" id="img-contact" href="#bottom-bar">
-              <img class="main-menu-img" id="top-contact" src="img/icon-contact.png">
-          </a>
-          <a class="img-link" href="https://plus.google.com/u/0/117299717712187494294/posts" target="_blank">
-              <img id="gplus" class="media" src="img/google-plus-icon.png">
-          </a>
-          <a class="img-link" href="https://www.facebook.com/olivia.kim.562" target="_blank">  
-              <img id="facebook" class="media" src="img/facebook-icon.png">
-          </a>
-          <a class="img-link" href="https://www.linkedin.com/profile/view?id=389122575&trk=nav_responsive_tab_profile" target="_blank">
-              <img id="linkedin" class="media" src="img/linkedin-icon.png">
-          </a>
+    <div id="wrapper">
+      <section id="home-container-outer">
+        <div id="home-container-inner" class="center container">
+          <div id="home-name">
+            <span>&#60; o l i v i a</span><span style="color:#337ab7;">k i m &#62;</span>
+          </div>
+          <div id="greeting-container">
+            <span class="typed-greeting"></span>
+          </div>
+          <div id="media-container">
+            <a class="img-link" id="img-github" href="https://github.com/oliviakim95" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            <a class="img-link" href="https://google.com/+OliviaKim95" target="_blank">
+              <i class="fa fa-google-plus"></i>
+            </a>
+            <a class="img-link" href="https://facebook.com/olivia.kim.562" target="_blank">  
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a class="img-link" href="https://linkedin.com/in/oliviakim95" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+          <div id="home-link-container" class="center">
+            <a id="projects-link" class="home-link" href="#"><span style="color:white;">P</span>rojects</a>
+            <span class="divider"> | </span>
+            <a id="work-link" class="home-link" href="#"><span style="color:white;">W</span>ork</a>
+            <span class="divider"> | </span>
+            <a class="home-link" href="img/web-resume.pdf" target="_blank"><span style="color:white;">R</span>esume</a>
+            <span class="divider"> | </span>
+            <a id="contact-link" class="home-link" href="#"><span style="color:white;">C</span>ontact</a>
+          </div>
+          <a id="chevron-link" class="home-link"><h1 id="chevron-down" class="glyphicon glyphicon-chevron-down"></h1></a>
         </div>
-
-
-        <div id="home-container">
-          <div id="top-bar">        
-            <img id="img-profile"
-                src="img/logo.jpg">
-            <div id="name">
-                O L I V I A K I M
-            </div>
-             <div id="top-menu-container">
-              <div class="top-menu-item-container">
-                <a href="#top-menu-bar" id="home" class="top-menu-item">
-                    H O M E
-                </a>
-             </div>
-             <div class="top-menu-item-container">
-                  <a href="#about-container" id="about" class="top-menu-item">
-                    A B O U T
-                  </a>
-              </div>
-              <div class="top-menu-item-container">
-                  <a href="#projects-container" id="experience" class="top-menu-item">
-                    P R O J E C T S
-                  </a>
-              </div>
-              <div class="top-menu-item-container">
-                  <a href="#experience-container" id="experience" class="top-menu-item">
-                    E X P E R I E N C E
-                  </a>
-              </div>
-              <div class="top-menu-item-container">
-                  <a href="#bottom-bar" id="contact" class="top-menu-item">
-                    C O N T A C T
-                  </a>
-              </div>
-              <div class="top-menu-item-container">
-                  <a class="top-menu-item" href="img/web-resume.pdf" target="_blank" id="top-resume">
-                    R E S U M E
-                  </a>
-              </div>
-            </div>
+      </section>
+      <section id="about-container">
+        <div id="about-container-inner">
+          <h1>Hello, there! I'm Olivia. . .</h1>
+          <div id="about-content">
+            <p>
+            and am a currently in my second year of Mechatronics Engineering at the University of Waterloo.
+            I have a strong passion for technology, and enjoy continuously learning and developing new skills. In my free time, I like to take on small personal side projects that help to expand my skillsets (click the button below to view my resume).
+            On a non-technical note, I am an avid runner and have participated in several 5ks, 10ks, and half-marathons. I enjoy training and preparing for upcoming races and am hoping to complete my first full marathon by the end of next year.
+            </p>
+            <button class="btn btn-default"><a id="button-link-resume" href="img/web-resume.pdf" target="_blank">view my resume</a></button>
           </div>
-          <span id="content-home"></span>
         </div>
-
-        <div id="content-container">
-            <div class="content-box" id="about-container">
-              <div class="info-box">
-                <div id="skydiving-container">
-                    <img id="img-skydiving" src="img/skydiving.jpg">
-                </div>
-                <div id="content-about">
-                  <div class="content-title" id="about-title">    
-                      ABOUT.
-                  </div>
-                  <div class="content" id="p-about">
-                      Hello! My name is Olivia Kim and I am a second year Mechatronics Engineering student at the University of Waterloo.<br><br>
-
-                      I have a strong passion for technology and development, and enjoy continuously learning and developing new skills.<br><br>
-
-                      I am an avid runner and have participated in several 5ks, 10ks, and half-marathons. I enjoy training and preparing for upcoming races and am hoping to complete my first full marathon by the end of next fall.<br><br>
-
-                      I love adventure and being outdoors, surrounded by nature!<br><br>
-
-                      Among my other interests are all things batman, and a deep appreciation for music. I am currently learning to play the guitar and can also play the french horn.
-                  </div>
-                </div>
-              </div>
+      </section>
+      <section id="projects-container" class="lined">
+        <div id="projects-container-inner">
+          <h1 class="title" style="color:#337ab7;">&#60; <span style="color:black;">Projects</span> &#62;</h1>
+          <div id="catasort" class="project">
+            <img src="img/catasort-frame.png" class="img-circle" width="200" height="200">
+            <h3 class="title">The Catasort</h3>
+            <p>The Catasort is a robotic candy sorting machine
+              that catapults different colored candy into their
+              respective bins based on color. This project was
+              created using various Lego Mindstorms sensors
+              and was written in Robot C. This project was
+              created organically, beginning with a selfcreated
+              mechanical design. This design then
+              came to life in Waterloo’s machine shop and
+              was integrated with the software.
+            </p>
           </div>
-          <div class="content-box" id="music">
+          <div class="project">
+            <img src="img/pppb.png" class="img-circle" width="200" height="200">
+            <h3 class="title">Pixel Perfect Pizza Bot</h3>
+            <p>
+              Pixel Perfect Piece of Pizza provides a quick
+              and easy way to order pizza. One can
+              engage in a conversation with the PPPPB,
+              and will be asked a series of questions
+              regarding their order, rather than filling out
+              long on-line forms or ordering pizza via
+              phone. The PPPB was created at the Kik
+              Hackathon hosted at the University of
+              Waterloo and was awarded first place. 
+            </p>
           </div>
-          <div class="content-box" id="projects-container">
-            <div class="info-box">
-              <div id="keyboard-container">
-                <img id="img-keyboard" src="img/code.jpg">
-              </div>
-              <div class="content" id="content-projects">
-                <div class="content-title">PROJECTS.</div>
-                <br>
-                I was initiated into the world of code after taking my first programming course at Waterloo.<br><br> I have now developed a strong passion for programming and am experimenting with small personal side projects to broaden my knowledge - this website is one of them!<br><br> I have always enjoyed creating things and developing new skills - making myself busy with small technical projects is a perfect way to do just that.
-              </div>
+          <div class="project">
+            <img src="img/snowball.png" class="img-circle" width="200" height="200">
+            <h3 class="title">Snowball</h3>
+            <p>
+              Snowball is a simple 2d game created with Unity and C#.
+              The player throws snowballs at evil snow creatures and 
+              earns points when these enemies are hit. I hope to soon
+              integrate the Myo into this game to make it slightly more
+              exciting. Rather than simply hitting keys, an actual throwing
+              action will be required to get the balls in the air!
+            </p>
+          </div>
+          <div class="project">
+            <img src="img/loop.png" class="img-circle" width="200" height="200">
+            <h3 class="title">In The Loop</h3>
+            <p>
+              In The Loop is a mobile app for
+              Android that combines all
+              categories of news into one
+              simple interface. A short 20-60
+              second video on each topic at
+              the touch of a button allows for
+              commuters, students and busy
+              individuals to stay "In The Loop"
+              at all times.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="work-container">
+        <h1 class="title" style="color:#337ab7;">&#60; <span style="color:black;">Work</span> &#62;</h1>
+        <div id="work-container-inner">
+          <div class="work">
+            <img src="img/wriber.jpg" class="img-thumbnail img-work inline">
+            <span class="inline"><h3>Wriber Inc. - Full Stack Developer (May - Aug 2015)</h3></span>
+          </div>
+          <div class="work">
+            <img src="img/lockheed.png" class="img-thumbnail img-work inline">
+            <span class="inline"><h3>Lockheed Martin Corporation - Software Developer (Sept - Dec 2014)</h3></span>
+          </div>
+          <div class="work">
+            <img src="img/osc.jpg" class="img-thumbnail img-work inline">
+            <span class="inline"><h3>Ontario Securities Commission - IT Support Analyst (Jan - Apr 2014)</h3></span>
+          </div>
+        </div>
+      </section>
+      <section id="contact-container" class="congruent">
+        <div id="contact-container-inner">
+          <h1>Like what you see? Give me a shout!</h1><br>
+          <span>T: 416.877.9523</span><br>
+          <span>E: oliviakim321@gmail.com</span>
+          <div id="media-container-bottom">
+            <div class="inline link-container">
+              <a class="img-link" id="img-github" href="https://github.com/oliviakim95" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+              <span>&nbsp github.com/oliviakim95</span><br>
             </div>
-          </div>
-          <div class="content-box" id="projects-2">
-            <div id="project-collection">
-              <div id="catasort" class="projects-box">
-                <p class="projects-box-inner">
-                  <span class="project-title">THE CATASORT</span><br><br>
-                  My first programming language was C++, which we used at Waterloo for several programming courses. In my first year, my groupmates and I created "The Catasort" as an end of term project. The Catasort is a candy sorting robot that groups assorted candies by catapulting them into different bins according to their colour. The code for this project was written in Lego Mindstorm's RobotC and the catapult was constructed from lego, spare wood and plastic we found at our school's shop. This was a really fun project that incorporated both mechanical and software design.
-                </p>
-                  <div id="catasort-container">
-                    <img id="img-catasort" src="img/catasort-frame.png">
-                  </div> 
-              </div>
-              <div id="website" class="projects-box">
-                <p class="projects-box-inner">
-                  <span class="project-title">THIS WEBSITE</span><br><br>
-                  This website was my first web development project, and, as a result, my first time using html, css, javascript and jQuery. I learned alot and really enjoyed the process of designing and implementing my own ideas. It was a challenge, in the beginning, attempting to create a design compatitble with all device sizes and densities, but was fun to learn and well worth the struggle!
-                </p>
-              </div>
-              <div id="website2" class="projects-box">
-                <p class="projects-box-inner">
-                  <span class="project-title">WEBSITE: ROUND TWO</span><br><br>
-                  Upon the completion of this website, I have begun working on another for a friend. She has a deep passion for photography and wanted to showcase her works on her own portfolio wesbite. Because her photos are so rich in detail and are meant to be the focal point of the site, it's design will be simple and sleek with minimal distracting features.
-                </p>
-              </div>
-              <div id="games" class="projects-box">
-                <p class="projects-box-inner">
-                  <span class="project-title">GAME DEVELOPMENT</span><br><br>
-                  After my first experience with 3D logic at Lockhed Martin, I wanted to learn more, and decided to start game development. I am currently looking into the amazingly well-documented Unity APIs and am trying out the beginner tutorials. I plan to start creating my own basic game in the near future and hope to gain a strong understanding of the core concepts of 3D game development.<br><br> Click <a class="inTextLinks" id="rollABall" target="_blank" href="games/Roll-a-Ball.html">HERE</a> to play my first game, which I developed by following one of Unity's tutorials.
-                </p> 
-              </div>               
+            <div class="inline link-container">
+              <a class="img-link" href="https://google.com/+OliviaKim95" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <span>&nbsp google.com/+OliviaKim95</span><br>
             </div>
-          </div>
-          <div class="content-box" id="experience-container"> 
-            <div id="experience-container-inner">
-              <div class="content-title" id="title-experience">
-                EXPERIENCE.
-              </div>
-              <div id="experience-content">
-                THE OSC<br>
-                  My first co-op term was with the Ontario Securities Commission (the OSC), where I was employed as an IT Service representative. I assisted the employees of the OSC with computer and other hardware related issues.<br><br>
-                LOCKHEED MARTIN<br>
-                  My first experience with Java was at my previous co-op placement at Lockheed Martin Canada. I worked as a software developer on a virtual training simulation creating 3d logic and animations. This was a great learning experience - I not only picked up a new language, but I also learned some interesting concepts about 3D rendering and graphics.<br><br>
-                MORE<br>
-                  For more information, <a class="inTextLinks" href="img/web-resume.pdf" target="_blank">VIEW MY RESUME</a>.
-                </div>
+            <div class="inline link-container">
+              <a class="img-link" href="https://facebook.com/olivia.kim.562" target="_blank">  
+                <i class="fa fa-facebook"></i>
+              </a>
+              <span>&nbsp facebook.com/olivia.kim.562</span><br>
             </div>
-          </div>
-          <div class="content-box" id="contact-container">
-            <div class="content" id="content-contact">
-                <div id="contact-title" class="content-title">CONTACT.</div>
-                <div id="contact-info">
-                    email: oliviakim321@gmail.com | ogkim@uwaterloo.ca<br>
-                    mobile: (416)-877-9523<br>
-                    Or find me on google+, facebook or linkedin.
-                <div  id="contact-media-container">
-                  <a class="contact-img-link" href="https://plus.google.com/u/0/117299717712187494294/posts" target="_blank">
-                    <img id="contact-gplus" class="contact-media" src="img/icon-googlePlus.png">
-                  </a>
-                  <a class="contact-img-link" href="https://www.facebook.com/olivia.kim.562" target="_blank">
-                    <img id="contact-facebook" class="contact-media" src="img/icon-facebook.png">
-                  </a>
-                  <a class="contact-img-link" href="https://www.linkedin.com/profile/view?id=389122575&trk=nav_responsive_tab_profile" target="_blank">
-                    <img id="contact-linkedin" class="contact-media" src="img/icon-linkedin.png">
-                  </a>
-                  </div>
-                </div>
-              </div>
-            <div id="bottom-bar">
-                <a href="#top-bar" id="link-top">^ T O P</a>
+            <div class="inline link-container">
+              <a class="img-link" href="https://linkedin.com/in/oliviakim95" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <span>&nbsp linkedin.com/in/oliviakim95</span><br>
             </div>
           </div>
         </div>
-    
+      </section>
+    </div>
   </body>
-
 </html>
