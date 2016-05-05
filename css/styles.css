@@ -149,6 +149,10 @@ body {
     color: #337ab7;
 }
 
+#chevron-link:hover > #chevron-down{
+    color:#337ab7;
+}
+
 .glyphicon {
     color: white;
 }

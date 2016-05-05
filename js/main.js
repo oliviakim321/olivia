@@ -9,23 +9,23 @@ $(document).ready(function() {
         backDelay: 1000,
     });
 
-    $('.home-link').click(function() {
+    $(".home-link").click(function() {
     	var clicked = "";
-    	switch($(this).prop('id')){
-    		case 'projects-link':
-    			clicked = $('#projects-container');
+    	switch($(this).prop("id")){
+    		case "projects-link":
+    			clicked = $("#projects-container");
     			break;
-    		case 'work-link':
-    			clicked = $('#work-container');
+    		case "work-link":
+    			clicked = $("#work-container");
     			break;
-    		case 'contact-link':
-    			clicked = $('#contact-container');
+    		case "contact-link":
+    			clicked = $("#contact-container");
     			break;
-    		case 'chevron-link':
-    			clicked = $('#about-container');
+    		case "chevron-link":
+    			clicked = $("#about-container");
     			break;
     	}
-    	$('html, body').animate({
+    	$("html, body").animate({
 		    scrollTop: clicked.offset().top
 		}, 1000);
     })
