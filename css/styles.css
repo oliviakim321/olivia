@@ -190,6 +190,7 @@ body {
     padding: 2% 0% 5% 0%;
     margin-top: 2%;
     width: 100%;
+    background-color: rgb(239, 243, 249);
 }
 
 #projects-container-inner {
@@ -250,6 +251,7 @@ body {
     width: 100%;
     min-height: 350px;
     position: absolute;
+    background-color: rgb(68, 74, 84);
 }
 
 #contact-container-inner {
@@ -267,18 +269,6 @@ body {
 
 .link-container {
     padding: 10px 0 10px 0;
-}
-
-.grid {
-    background-image: url("../img/gridme.png");
-}
-
-.lined {
-    background-image: url("../img/linedpaper.png");
-}
-
-.congruent {
-    background-image: url("../img/congruent.png");
 }
 
 @media (max-width: 374px) {
